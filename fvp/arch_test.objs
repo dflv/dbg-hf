@@ -1,0 +1,41 @@
+build aem_v8a_fvp_clang/arch_test.elf:
+aem_v8a_fvp_clang_link aem_v8a_fvp_clang/obj/test/arch/arch_test.elf.dlog_test.o
+aem_v8a_fvp_clang/obj/test/arch/arch_test.elf.mm_test.o
+aem_v8a_fvp_clang/obj/src/arch/aarch64/arch.irq.o
+aem_v8a_fvp_clang/obj/src/arch/aarch64/arch.mm.o aem_v8a_fvp_clang/obj/src/arch/aarch64/arch.sysregs.o
+aem_v8a_fvp_clang/obj/src/arch/aarch64/arch.timer.o
+aem_v8a_fvp_clang/obj/test/hftest/hftest_standalone.standalone_main.o
+aem_v8a_fvp_clang/obj/test/hftest/common.common.o
+aem_v8a_fvp_clang/obj/src/fdt_handler.fdt_handler.o
+aem_v8a_fvp_clang/obj/src/dlog.dlog.o
+aem_v8a_fvp_clang/obj/src/std.std.o
+aem_v8a_fvp_clang/obj/src/arch/aarch64/std.stack_protector.o
+aem_v8a_fvp_clang/obj/src/arch/aarch64/std.std.o
+aem_v8a_fvp_clang/obj/src/stdout.stdout.o
+aem_v8a_fvp_clang/obj/src/arch/aarch64/pl011/pl011.pl011.o
+aem_v8a_fvp_clang/obj/src/fdt.fdt.o
+aem_v8a_fvp_clang/obj/src/memiter.memiter.o
+aem_v8a_fvp_clang/obj/src/string.string.o
+aem_v8a_fvp_clang/obj/third_party/dtc/libfdt/libfdt.fdt.o
+aem_v8a_fvp_clang/obj/third_party/dtc/libfdt/libfdt.fdt_addresses.o
+aem_v8a_fvp_clang/obj/third_party/dtc/libfdt/libfdt.fdt_ro.o
+aem_v8a_fvp_clang/obj/third_party/dtc/libfdt/libfdt.fdt_rw.o
+aem_v8a_fvp_clang/obj/third_party/dtc/libfdt/libfdt.fdt_wip.o
+aem_v8a_fvp_clang/obj/src/fdt_patch.fdt_patch.o
+aem_v8a_fvp_clang/obj/src/panic.panic.o
+aem_v8a_fvp_clang/obj/test/hftest/mm.mm.o
+aem_v8a_fvp_clang/obj/src/layout.layout.o
+aem_v8a_fvp_clang/obj/src/mm.mm.o
+aem_v8a_fvp_clang/obj/src/mm.mpool.o
+aem_v8a_fvp_clang/obj/src/arch/aarch64/hftest/mm.mm.o
+aem_v8a_fvp_clang/obj/test/hftest/power_mgmt.power_mgmt.o
+aem_v8a_fvp_clang/obj/src/arch/aarch64/hftest/power_mgmt.cpu_entry.o
+aem_v8a_fvp_clang/obj/src/arch/aarch64/hftest/power_mgmt.power_mgmt.o
+aem_v8a_fvp_clang/obj/src/arch/aarch64/smc.smc.o
+aem_v8a_fvp_clang/obj/src/arch/aarch64/entry.entry.o
+aem_v8a_fvp_clang/obj/src/arch/aarch64/hftest/entry.entry.o
+aem_v8a_fvp_clang/obj/src/arch/aarch64/hftest/interrupts.events.o
+aem_v8a_fvp_clang/obj/src/arch/aarch64/hftest/interrupts.exceptions.o
+aem_v8a_fvp_clang/obj/src/arch/aarch64/hftest/interrupts.interrupts.o
+aem_v8a_fvp_clang/obj/test/hftest/ctrl_fdt.ctrl_fdt.o
+aem_v8a_fvp_clang/obj/test/hftest/device_psci.device_psci.o

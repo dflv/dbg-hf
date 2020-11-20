@@ -1,0 +1,75 @@
+$ /home/dafu/Lab/hafnium/build/image/dtc.py compile -i out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts -o out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dtb
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:248.21-252.6: Warning (simple_bus_reg): /smb@0,0/motherboard/flash@0,00000000: simple-bus unit address format error, expected "0"
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:254.20-257.6: Warning (simple_bus_reg): /smb@0,0/motherboard/vram@2,00000000: simple-bus unit address format error, expected "200000000"
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:259.24-263.6: Warning (simple_bus_reg): /smb@0,0/motherboard/ethernet@2,02000000: simple-bus unit address format error, expected "202000000"
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:265.13-271.6: Warning (simple_bus_reg): /smb@0,0/motherboard/clk24mhz: missing or empty reg/ranges property
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:273.15-279.6: Warning (simple_bus_reg): /smb@0,0/motherboard/refclk1mhz: missing or empty reg/ranges property
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:281.16-287.6: Warning (simple_bus_reg): /smb@0,0/motherboard/refclk32khz: missing or empty reg/ranges property
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:289.22-429.6: Warning (simple_bus_reg): /smb@0,0/motherboard/iofpga@3,00000000: simple-bus unit address format error, expected "300000000"
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:431.19-438.6: Warning (simple_bus_reg): /smb@0,0/motherboard/fixedregulator: missing or empty reg/ranges property
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:444.9-451.7: Warning (simple_bus_reg): /smb@0,0/motherboard/mcc/osc: missing or empty reg/ranges property
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:453.13-456.7: Warning (simple_bus_reg): /smb@0,0/motherboard/mcc/muxfpga: missing or empty reg/ranges property
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:458.13-461.7: Warning (simple_bus_reg): /smb@0,0/motherboard/mcc/dvimode: missing or empty reg/ranges property
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:306.6-32: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/sysctl@20000:clocks: cell 0 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:306.6-32: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/sysctl@20000:clocks: cell 1 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:306.6-32: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/sysctl@20000:clocks: cell 2 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:317.6-22: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/aaci@40000:clocks: cell 0 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:329.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/mmci@50000:clocks: cell 0 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:329.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/mmci@50000:clocks: cell 1 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:337.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/kmi@60000:clocks: cell 0 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:337.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/kmi@60000:clocks: cell 1 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:345.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/kmi@70000:clocks: cell 0 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:345.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/kmi@70000:clocks: cell 1 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:353.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/uart@90000:clocks: cell 0 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:353.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/uart@90000:clocks: cell 1 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:361.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/uart@a0000:clocks: cell 0 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:361.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/uart@a0000:clocks: cell 1 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:369.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/uart@b0000:clocks: cell 0 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:369.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/uart@b0000:clocks: cell 1 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:377.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/uart@c0000:clocks: cell 0 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:377.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/uart@c0000:clocks: cell 1 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:385.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/wdt@f0000:clocks: cell 0 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:385.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/wdt@f0000:clocks: cell 1 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:393.6-42: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/timer@110000:clocks: cell 0 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:393.6-42: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/timer@110000:clocks: cell 2 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:393.6-42: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/timer@110000:clocks: cell 4 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:401.6-42: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/timer@120000:clocks: cell 0 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:401.6-42: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/timer@120000:clocks: cell 2 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:401.6-42: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/timer@120000:clocks: cell 4 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:409.6-22: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/rtc@170000:clocks: cell 0 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:417.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/clcd@1f0000:clocks: cell 0 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:417.6-27: Warning (clocks_property): /smb@0,0/motherboard/iofpga@3,00000000/clcd@1f0000:clocks: cell 1 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:325.6-34: Warning (gpios_property): /smb@0,0/motherboard/iofpga@3,00000000/mmci@50000:cd-gpios: cell 0 is not a phandle reference
+out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dts:326.6-34: Warning (gpios_property): /smb@0,0/motherboard/iofpga@3,00000000/mmci@50000:wp-gpios: cell 0 is not a phandle reference
+$ timeout --foreground 80s /home/dafu/Lab/fvp/Base_RevC_AEMv8A_pkg/models/Linux64_GCC-6.4/FVP_Base_RevC-2xAEMv8A -C pctl.startup=0.0.0.0 -C bp.secure_memory=0 -C cluster0.NUM_CORES=4 -C cluster1.NUM_CORES=4 -C cache_state_modelled=0 -C bp.vis.disable_visualisation=true -C bp.vis.rate_limit-enable=false -C bp.terminal_0.start_telnet=false -C bp.terminal_1.start_telnet=false -C bp.terminal_2.start_telnet=false -C bp.terminal_3.start_telnet=false -C bp.pl011_uart0.untimed_fifos=1 -C bp.pl011_uart0.unbuffered_output=1 -C bp.pl011_uart0.out_file=out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.uart0.log -C bp.pl011_uart1.out_file=out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.uart1.log -C cluster0.cpu0.RVBAR=0x04020000 -C cluster0.cpu1.RVBAR=0x04020000 -C cluster0.cpu2.RVBAR=0x04020000 -C cluster0.cpu3.RVBAR=0x04020000 -C cluster1.cpu0.RVBAR=0x04020000 -C cluster1.cpu1.RVBAR=0x04020000 -C cluster1.cpu2.RVBAR=0x04020000 -C cluster1.cpu3.RVBAR=0x04020000 --data cluster0.cpu0=/home/dafu/Lab/hafnium/prebuilts/linux-aarch64/arm-trusted-firmware/fvp/bl31.bin@0x04020000 --data cluster0.cpu0=out/reference/kokoro_log/hafnium_test/vmapi/primary_with_secondaries/primary_with_secondaries_test/mailbox.echo.dtb@0x82000000 --data cluster0.cpu0=out/reference/aem_v8a_fvp_clang/hafnium.bin@0x80000000 -C bp.ve_sysregs.mmbSiteDefault=0 -C bp.ve_sysregs.exit_on_shutdown=1 --data cluster0.cpu0=out/reference/aem_v8a_fvp_vm_clang/obj/test/vmapi/primary_with_secondaries/primary_with_secondaries_test/initrd.img@0x84000000
+terminal_1: Listening for serial connection on port 5000
+terminal_0: Listening for serial connection on port 5001
+terminal_2: Listening for serial connection on port 5002
+terminal_3: Listening for serial connection on port 5003
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+NOTICE:  BL31: v2.2(release):v2.2-771-g2d7b074e2
+NOTICE:  BL31: Built : 17:48:04, Aug 18 2020
+NOTICE: Initialising hafnium
+INFO: text: 0x80000000 - 0x8001a000
+INFO: rodata: 0x8001a000 - 0x8001e000
+INFO: data: 0x8001e000 - 0x800b6000
+INFO: Supported bits in physical address: 40
+INFO: Stage 2 has 3 page table levels with 2 pages at the root.
+INFO: Found PSCI version: 0x10001
+INFO: Memory range:  0x80000000 - 0xfeffffff
+INFO: Memory range:  0x880000000 - 0x8ffffffff
+INFO: Ramdisk range: 0x84000000 - 0x84076dff
+WARNING: Device memory not provided, defaulting to 1 TB.
+INFO: Loaded primary VM with 8 vCPUs, entry at 0x80280000.
+INFO: Loading VM id 0x2: services1.
+INFO: Loading secondary FDT of allocated size 8192 at 0xfeffe000.
+INFO: Loaded with 1 vCPUs, entry at 0xfef00000.
+INFO: Loading VM id 0x3: services2.
+INFO: Loading secondary FDT of allocated size 8192 at 0xfeefe000.
+INFO: Loaded with 1 vCPUs, entry at 0xfee00000.
+INFO: Loading VM id 0x4: services3.
+INFO: Loading secondary FDT of allocated size 8192 at 0xfedfe000.
+INFO: Loaded with 2 vCPUs, entry at 0xfed00000.
+INFO: Hafnium initialisation completed
+VM 1: [hftest] FINISHED
