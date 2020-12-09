@@ -2,7 +2,7 @@
 
 TOP=~/Lab/hafnium
 
-pushd $TOP
+pushd $TOP >& /dev/null
 
 echo "updating code ..."
 git pull
