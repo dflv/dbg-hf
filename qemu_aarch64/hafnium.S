@@ -992,7 +992,7 @@ Disassembly of section .text:
     40002584:	b00000e8 	adrp	x8, 4001f000 <cpus>
     40002588:	f9406508 	ldr	x8, [x8, #200]
     4000258c:	d00000c0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40002590:	91321800 	add	x0, x0, #0xc86
+    40002590:	91321c00 	add	x0, x0, #0xc87
     40002594:	f9000fe8 	str	x8, [sp, #24]
     40002598:	94002de1 	bl	4000dd1c <dlog>
     4000259c:	d00000e8 	adrp	x8, 40020000 <arch_mm_config>
@@ -1056,7 +1056,7 @@ Disassembly of section .text:
     40002684:	f9406ad6 	ldr	x22, [x22, #208]
     40002688:	f9406e94 	ldr	x20, [x20, #216]
     4000268c:	d00000c0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40002690:	912bd400 	add	x0, x0, #0xaf5
+    40002690:	912bd800 	add	x0, x0, #0xaf6
     40002694:	aa1603e1 	mov	x1, x22
     40002698:	aa1403e2 	mov	x2, x20
     4000269c:	94002da0 	bl	4000dd1c <dlog>
@@ -1065,14 +1065,14 @@ Disassembly of section .text:
     400026a8:	f9407021 	ldr	x1, [x1, #224]
     400026ac:	f9407442 	ldr	x2, [x2, #232]
     400026b0:	d00000c0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    400026b4:	912cb000 	add	x0, x0, #0xb2c
+    400026b4:	912cb400 	add	x0, x0, #0xb2d
     400026b8:	94002d99 	bl	4000dd1c <dlog>
     400026bc:	b00000e1 	adrp	x1, 4001f000 <cpus>
     400026c0:	b00000e2 	adrp	x2, 4001f000 <cpus>
     400026c4:	f9407821 	ldr	x1, [x1, #240]
     400026c8:	f9407c42 	ldr	x2, [x2, #248]
     400026cc:	d00000c0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    400026d0:	912d1400 	add	x0, x0, #0xb45
+    400026d0:	912d1800 	add	x0, x0, #0xb46
     400026d4:	94002d92 	bl	4000dd1c <dlog>
     400026d8:	d00000e8 	adrp	x8, 40020000 <arch_mm_config>
     400026dc:	9100e108 	add	x8, x8, #0x38
@@ -1111,7 +1111,7 @@ Disassembly of section .text:
     40002760:	f9401108 	ldr	x8, [x8, #32]
     40002764:	b5fffbe8 	cbnz	x8, 400026e0 <one_time_init_mm+0x17c>
     40002768:	f00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    4000276c:	91193c00 	add	x0, x0, #0x64f
+    4000276c:	91194000 	add	x0, x0, #0x650
     40002770:	94002d6b 	bl	4000dd1c <dlog>
     40002774:	b00000c0 	adrp	x0, 4001b000 <rodata_begin>
     40002778:	9132ac00 	add	x0, x0, #0xcab
@@ -1505,7 +1505,7 @@ Disassembly of section .text:
     40002d88:	f0000428 	adrp	x8, 40089000 <dlog_lock_enabled>
     40002d8c:	f9401115 	ldr	x21, [x8, #32]
     40002d90:	d00000c0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40002d94:	9138a800 	add	x0, x0, #0xe2a
+    40002d94:	9138ac00 	add	x0, x0, #0xe2b
     40002d98:	2a1403e1 	mov	w1, w20
     40002d9c:	94002be0 	bl	4000dd1c <dlog>
     40002da0:	7100ae9f 	cmp	w20, #0x2b
@@ -1539,7 +1539,7 @@ Disassembly of section .text:
     40002e10:	f0000429 	adrp	x9, 40089000 <dlog_lock_enabled>
     40002e14:	12001d02 	and	w2, w8, #0xff
     40002e18:	f00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40002e1c:	9108f800 	add	x0, x0, #0x23e
+    40002e1c:	9108fc00 	add	x0, x0, #0x23f
     40002e20:	39005128 	strb	w8, [x9, #20]
     40002e24:	94002bbe 	bl	4000dd1c <dlog>
     40002e28:	925c0ec8 	and	x8, x22, #0xf000000000
@@ -1591,7 +1591,7 @@ Disassembly of section .text:
     40002ee0:	52804103 	mov	w3, #0x208                 	// #520
     40002ee4:	94003d4c 	bl	40012414 <panic>
     40002ee8:	d00000c0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40002eec:	9135f800 	add	x0, x0, #0xd7e
+    40002eec:	9135fc00 	add	x0, x0, #0xd7f
     40002ef0:	17fffe20 	b	40002770 <one_time_init_mm+0x20c>
     40002ef4:	d00000c0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
     40002ef8:	9124d800 	add	x0, x0, #0x936
@@ -1612,7 +1612,7 @@ Disassembly of section .text:
     40002f2c:	b00000e9 	adrp	x9, 4001f000 <cpus>
     40002f30:	f9406529 	ldr	x9, [x9, #200]
     40002f34:	900000e8 	adrp	x8, 4001e000 <arch_mm_init.pa_bits_table+0x2a6c>
-    40002f38:	91028908 	add	x8, x8, #0xa2
+    40002f38:	91028d08 	add	x8, x8, #0xa3
     40002f3c:	aa0803e0 	mov	x0, x8
     40002f40:	f81a03a9 	stur	x9, [x29, #-96]
     40002f44:	39400d09 	ldrb	w9, [x8, #3]
@@ -1700,11 +1700,11 @@ Disassembly of section .text:
     4000308c:	7100083f 	cmp	w1, #0x2
     40003090:	540000a1 	b.ne	400030a4 <one_time_init+0x19c>  // b.any
     40003094:	b00000c0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40003098:	912b5800 	add	x0, x0, #0xad6
+    40003098:	912b5c00 	add	x0, x0, #0xad7
     4000309c:	94002b20 	bl	4000dd1c <dlog>
     400030a0:	14000005 	b	400030b4 <one_time_init+0x1ac>
     400030a4:	b00000c0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    400030a8:	912ac800 	add	x0, x0, #0xab2
+    400030a8:	912acc00 	add	x0, x0, #0xab3
     400030ac:	94002b1c 	bl	4000dd1c <dlog>
     400030b0:	b90d827f 	str	wzr, [x19, #3456]
     400030b4:	d0000428 	adrp	x8, 40089000 <dlog_lock_enabled>
@@ -1809,7 +1809,7 @@ Disassembly of section .text:
     40003240:	94002e40 	bl	4000eb40 <fdt_check_header>
     40003244:	34000840 	cbz	w0, 4000334c <one_time_init+0x444>
     40003248:	d00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    4000324c:	910e3800 	add	x0, x0, #0x38e
+    4000324c:	910e3c00 	add	x0, x0, #0x38f
     40003250:	94002ab3 	bl	4000dd1c <dlog>
     40003254:	eb1502df 	cmp	x22, x21
     40003258:	540005c9 	b.ls	40003310 <one_time_init+0x408>  // b.plast
@@ -1969,7 +1969,7 @@ Disassembly of section .text:
     400034c0:	9400322b 	bl	4000fd6c <fdt_check_full>
     400034c4:	34000840 	cbz	w0, 400035cc <one_time_init+0x6c4>
     400034c8:	d00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400034cc:	910ed000 	add	x0, x0, #0x3b4
+    400034cc:	910ed400 	add	x0, x0, #0x3b5
     400034d0:	94002a13 	bl	4000dd1c <dlog>
     400034d4:	eb1502ff 	cmp	x23, x21
     400034d8:	540005c9 	b.ls	40003590 <one_time_init+0x688>  // b.plast
@@ -2034,7 +2034,7 @@ Disassembly of section .text:
     400035c4:	d5033fdf 	isb
     400035c8:	94003b93 	bl	40012414 <panic>
     400035cc:	f00000cb 	adrp	x11, 4001e000 <arch_mm_init.pa_bits_table+0x2a6c>
-    400035d0:	9101896b 	add	x11, x11, #0x62
+    400035d0:	91018d6b 	add	x11, x11, #0x63
     400035d4:	3940056c 	ldrb	w12, [x11, #1]
     400035d8:	8b140268 	add	x8, x19, x20
     400035dc:	39400169 	ldrb	w9, [x11]
@@ -2056,7 +2056,7 @@ Disassembly of section .text:
     4000361c:	39406561 	ldrb	w1, [x11, #25]
     40003620:	39407563 	ldrb	w3, [x11, #29]
     40003624:	f00000cb 	adrp	x11, 4001e000 <arch_mm_init.pa_bits_table+0x2a6c>
-    40003628:	9103096b 	add	x11, x11, #0xc2
+    40003628:	91030d6b 	add	x11, x11, #0xc3
     4000362c:	39400d65 	ldrb	w5, [x11, #3]
     40003630:	39400966 	ldrb	w6, [x11, #2]
     40003634:	b3781ca6 	bfi	x6, x5, #8, #8
@@ -2458,7 +2458,7 @@ Disassembly of section .text:
     40003c64:	9108e3e8 	add	x8, sp, #0x238
     40003c68:	aa1f03f4 	mov	x20, xzr
     40003c6c:	b00000d3 	adrp	x19, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40003c70:	912d7273 	add	x19, x19, #0xb5c
+    40003c70:	912d7673 	add	x19, x19, #0xb5d
     40003c74:	91014115 	add	x21, x8, #0x50
     40003c78:	a97fa2a1 	ldp	x1, x8, [x21, #-8]
     40003c7c:	d1000502 	sub	x2, x8, #0x1
@@ -2475,7 +2475,7 @@ Disassembly of section .text:
     40003ca8:	f9423fe8 	ldr	x8, [sp, #1144]
     40003cac:	d1000502 	sub	x2, x8, #0x1
     40003cb0:	b00000c0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40003cb4:	912c3000 	add	x0, x0, #0xb0c
+    40003cb4:	912c3400 	add	x0, x0, #0xb0d
     40003cb8:	94002819 	bl	4000dd1c <dlog>
     40003cbc:	f9423fe8 	ldr	x8, [sp, #1144]
     40003cc0:	913ffd08 	add	x8, x8, #0xfff
@@ -2547,7 +2547,7 @@ Disassembly of section .text:
     40003dc8:	aa1903fb 	mov	x27, x25
     40003dcc:	d000043a 	adrp	x26, 40089000 <dlog_lock_enabled>
     40003dd0:	d00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40003dd4:	912d3400 	add	x0, x0, #0xb4d
+    40003dd4:	912d3800 	add	x0, x0, #0xb4e
     40003dd8:	17fffd1e 	b	40003250 <one_time_init+0x348>
     40003ddc:	a94aa3e9 	ldp	x9, x8, [sp, #168]
     40003de0:	a90ba3e9 	stp	x9, x8, [sp, #184]
@@ -2696,7 +2696,7 @@ Disassembly of section .text:
     4000401c:	17fffff0 	b	40003fdc <one_time_init+0x10d4>
     40004020:	370000ab 	tbnz	w11, #0, 40004034 <one_time_init+0x112c>
     40004024:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004028:	9116d000 	add	x0, x0, #0x5b4
+    40004028:	9116d400 	add	x0, x0, #0x5b5
     4000402c:	9400273c 	bl	4000dd1c <dlog>
     40004030:	f9000274 	str	x20, [x19]
     40004034:	395553e8 	ldrb	w8, [sp, #1364]
@@ -2770,7 +2770,7 @@ Disassembly of section .text:
     40004144:	f94237e8 	ldr	x8, [sp, #1128]
     40004148:	b5000748 	cbnz	x8, 40004230 <one_time_init+0x1328>
     4000414c:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004150:	9138c800 	add	x0, x0, #0xe32
+    40004150:	9138cc00 	add	x0, x0, #0xe33
     40004154:	940026f2 	bl	4000dd1c <dlog>
     40004158:	b0000428 	adrp	x8, 40089000 <dlog_lock_enabled>
     4000415c:	39404117 	ldrb	w23, [x8, #16]
@@ -2801,7 +2801,7 @@ Disassembly of section .text:
     400041c0:	9100e273 	add	x19, x19, #0x38
     400041c4:	cb1b03fc 	neg	x28, x27
     400041c8:	b00000d9 	adrp	x25, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400041cc:	91314339 	add	x25, x25, #0xc50
+    400041cc:	91314739 	add	x25, x25, #0xc51
     400041d0:	aa1603e0 	mov	x0, x22
     400041d4:	aa1503e1 	mov	x1, x21
     400041d8:	aa1603e2 	mov	x2, x22
@@ -3065,7 +3065,7 @@ Disassembly of section .text:
     400045e0:	9100e273 	add	x19, x19, #0x38
     400045e4:	cb1803fb 	neg	x27, x24
     400045e8:	b00000d9 	adrp	x25, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400045ec:	91322f39 	add	x25, x25, #0xc8b
+    400045ec:	91323339 	add	x25, x25, #0xc8c
     400045f0:	aa1503e0 	mov	x0, x21
     400045f4:	aa1403e1 	mov	x1, x20
     400045f8:	aa1503e2 	mov	x2, x21
@@ -3125,7 +3125,7 @@ Disassembly of section .text:
     400046d0:	9100e273 	add	x19, x19, #0x38
     400046d4:	cb1803fb 	neg	x27, x24
     400046d8:	b00000d9 	adrp	x25, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400046dc:	91322f39 	add	x25, x25, #0xc8b
+    400046dc:	91323339 	add	x25, x25, #0xc8c
     400046e0:	aa1503e0 	mov	x0, x21
     400046e4:	aa1403e1 	mov	x1, x20
     400046e8:	aa1503e2 	mov	x2, x21
@@ -3185,7 +3185,7 @@ Disassembly of section .text:
     400047c0:	9100e273 	add	x19, x19, #0x38
     400047c4:	cb1803fb 	neg	x27, x24
     400047c8:	b00000d9 	adrp	x25, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400047cc:	91322f39 	add	x25, x25, #0xc8b
+    400047cc:	91323339 	add	x25, x25, #0xc8c
     400047d0:	aa1503e0 	mov	x0, x21
     400047d4:	aa1403e1 	mov	x1, x20
     400047d8:	aa1503e2 	mov	x2, x21
@@ -3214,7 +3214,7 @@ Disassembly of section .text:
     40004834:	36012760 	tbz	w0, #0, 40006d20 <one_time_init+0x3e18>
     40004838:	f9404bf4 	ldr	x20, [sp, #144]
     4000483c:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004840:	91038000 	add	x0, x0, #0xe0
+    40004840:	91038400 	add	x0, x0, #0xe1
     40004844:	79413a81 	ldrh	w1, [x20, #156]
     40004848:	f9403fe2 	ldr	x2, [sp, #120]
     4000484c:	94002534 	bl	4000dd1c <dlog>
@@ -3353,17 +3353,17 @@ Disassembly of section .text:
     40004a60:	911f4108 	add	x8, x8, #0x7d0
     40004a64:	aa1f03f5 	mov	x21, xzr
     40004a68:	b00000d6 	adrp	x22, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004a6c:	910baed6 	add	x22, x22, #0x2eb
+    40004a6c:	910bb2d6 	add	x22, x22, #0x2ec
     40004a70:	5280c614 	mov	w20, #0x630                 	// #1584
     40004a74:	911223f3 	add	x19, sp, #0x488
     40004a78:	91002108 	add	x8, x8, #0x8
     40004a7c:	f90043e8 	str	x8, [sp, #128]
     40004a80:	1400000b 	b	40004aac <one_time_init+0x1ba4>
     40004a84:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004a88:	91372400 	add	x0, x0, #0xdc9
+    40004a88:	91372800 	add	x0, x0, #0xdca
     40004a8c:	940024a4 	bl	4000dd1c <dlog>
     40004a90:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004a94:	9137a800 	add	x0, x0, #0xdea
+    40004a94:	9137ac00 	add	x0, x0, #0xdeb
     40004a98:	940024a1 	bl	4000dd1c <dlog>
     40004a9c:	794917e8 	ldrh	w8, [sp, #1162]
     40004aa0:	eb08031f 	cmp	x24, x8
@@ -3478,7 +3478,7 @@ Disassembly of section .text:
     40004c54:	eb13011f 	cmp	x8, x19
     40004c58:	54000702 	b.cs	40004d38 <one_time_init+0x1e30>  // b.hs, b.nlast
     40004c5c:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004c60:	91006000 	add	x0, x0, #0x18
+    40004c60:	91006400 	add	x0, x0, #0x19
     40004c64:	1400003d 	b	40004d58 <one_time_init+0x1e50>
     40004c68:	f941e3e9 	ldr	x9, [sp, #960]
     40004c6c:	b4000129 	cbz	x9, 40004c90 <one_time_init+0x1d88>
@@ -3491,7 +3491,7 @@ Disassembly of section .text:
     40004c88:	91004108 	add	x8, x8, #0x10
     40004c8c:	54ffff41 	b.ne	40004c74 <one_time_init+0x1d6c>  // b.any
     40004c90:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004c94:	913af400 	add	x0, x0, #0xebd
+    40004c94:	913af800 	add	x0, x0, #0xebe
     40004c98:	94002421 	bl	4000dd1c <dlog>
     40004c9c:	17ffff80 	b	40004a9c <one_time_init+0x1b94>
     40004ca0:	911223f8 	add	x24, sp, #0x488
@@ -3518,13 +3518,13 @@ Disassembly of section .text:
     40004cf4:	eb02029f 	cmp	x20, x2
     40004cf8:	540004c9 	b.ls	40004d90 <one_time_init+0x1e88>  // b.plast
     40004cfc:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004d00:	9139b000 	add	x0, x0, #0xe6c
+    40004d00:	9139b400 	add	x0, x0, #0xe6d
     40004d04:	aa1403e1 	mov	x1, x20
     40004d08:	94002405 	bl	4000dd1c <dlog>
     40004d0c:	5280c614 	mov	w20, #0x630                 	// #1584
     40004d10:	1400001c 	b	40004d80 <one_time_init+0x1e78>
     40004d14:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004d18:	913e3400 	add	x0, x0, #0xf8d
+    40004d18:	913e3800 	add	x0, x0, #0xf8e
     40004d1c:	aa1303e1 	mov	x1, x19
     40004d20:	940023ff 	bl	4000dd1c <dlog>
     40004d24:	1400000e 	b	40004d5c <one_time_init+0x1e54>
@@ -3539,27 +3539,27 @@ Disassembly of section .text:
     40004d48:	940008aa 	bl	40006ff0 <copy_to_unmapped>
     40004d4c:	3707fae0 	tbnz	w0, #0, 40004ca8 <one_time_init+0x1da0>
     40004d50:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004d54:	91120800 	add	x0, x0, #0x482
+    40004d54:	91120c00 	add	x0, x0, #0x483
     40004d58:	940023f1 	bl	4000dd1c <dlog>
     40004d5c:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004d60:	91128400 	add	x0, x0, #0x4a1
+    40004d60:	91128800 	add	x0, x0, #0x4a2
     40004d64:	940023ee 	bl	4000dd1c <dlog>
     40004d68:	f94053f8 	ldr	x24, [sp, #160]
     40004d6c:	911223f3 	add	x19, sp, #0x488
     40004d70:	17ffff48 	b	40004a90 <one_time_init+0x1b88>
     40004d74:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004d78:	912bbc00 	add	x0, x0, #0xaef
+    40004d78:	912bc000 	add	x0, x0, #0xaf0
     40004d7c:	940023e8 	bl	4000dd1c <dlog>
     40004d80:	911223f3 	add	x19, sp, #0x488
     40004d84:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004d88:	912f3000 	add	x0, x0, #0xbcc
+    40004d88:	912f3400 	add	x0, x0, #0xbcd
     40004d8c:	17ffff40 	b	40004a8c <one_time_init+0x1b84>
     40004d90:	f90033fa 	str	x26, [sp, #96]
     40004d94:	eb14033a 	subs	x26, x25, x20
     40004d98:	911223f3 	add	x19, sp, #0x488
     40004d9c:	54010d63 	b.cc	40006f48 <one_time_init+0x4040>  // b.lo, b.ul, b.last
     40004da0:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004da4:	9101e800 	add	x0, x0, #0x7a
+    40004da4:	9101ec00 	add	x0, x0, #0x7b
     40004da8:	aa1403e1 	mov	x1, x20
     40004dac:	aa1a03e2 	mov	x2, x26
     40004db0:	940023db 	bl	4000dd1c <dlog>
@@ -3641,7 +3641,7 @@ Disassembly of section .text:
     40004ee0:	f9401bf3 	ldr	x19, [sp, #48]
     40004ee4:	1400000e 	b	40004f1c <one_time_init+0x2014>
     40004ee8:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004eec:	912b4c00 	add	x0, x0, #0xad3
+    40004eec:	912b5000 	add	x0, x0, #0xad4
     40004ef0:	9400238b 	bl	4000dd1c <dlog>
     40004ef4:	5280c614 	mov	w20, #0x630                 	// #1584
     40004ef8:	17ffffa3 	b	40004d84 <one_time_init+0x1e7c>
@@ -3662,20 +3662,20 @@ Disassembly of section .text:
     40004f34:	34000280 	cbz	w0, 40004f84 <one_time_init+0x207c>
     40004f38:	2a0003e1 	mov	w1, w0
     40004f3c:	900000c0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40004f40:	913dd800 	add	x0, x0, #0xf76
+    40004f40:	913ddc00 	add	x0, x0, #0xf77
     40004f44:	14000096 	b	4000519c <one_time_init+0x2294>
     40004f48:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004f4c:	911ab000 	add	x0, x0, #0x6ac
+    40004f4c:	911ab400 	add	x0, x0, #0x6ad
     40004f50:	d280f09b 	mov	x27, #0x784                 	// #1924
     40004f54:	d280879c 	mov	x28, #0x43c                 	// #1084
     40004f58:	f2e0281c 	movk	x28, #0x140, lsl #48
     40004f5c:	f2e0081b 	movk	x27, #0x40, lsl #48
     40004f60:	b00000d6 	adrp	x22, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004f64:	910baed6 	add	x22, x22, #0x2eb
+    40004f64:	910bb2d6 	add	x22, x22, #0x2ec
     40004f68:	5280c614 	mov	w20, #0x630                 	// #1584
     40004f6c:	9400236c 	bl	4000dd1c <dlog>
     40004f70:	b00000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40004f74:	912e2400 	add	x0, x0, #0xb89
+    40004f74:	912e2800 	add	x0, x0, #0xb8a
     40004f78:	94002369 	bl	4000dd1c <dlog>
     40004f7c:	911223f3 	add	x19, sp, #0x488
     40004f80:	17fffec4 	b	40004a90 <one_time_init+0x1b88>
@@ -3686,7 +3686,7 @@ Disassembly of section .text:
     40004f94:	340000a0 	cbz	w0, 40004fa8 <one_time_init+0x20a0>
     40004f98:	2a0003e1 	mov	w1, w0
     40004f9c:	900000c0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40004fa0:	913d2c00 	add	x0, x0, #0xf4b
+    40004fa0:	913d3000 	add	x0, x0, #0xf4c
     40004fa4:	1400007e 	b	4000519c <one_time_init+0x2294>
     40004fa8:	aa1303e0 	mov	x0, x19
     40004fac:	900000c1 	adrp	x1, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
@@ -3812,7 +3812,7 @@ Disassembly of section .text:
     4000518c:	f94053f8 	ldr	x24, [sp, #160]
     40005190:	2a0003e1 	mov	w1, w0
     40005194:	f00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40005198:	913e7c00 	add	x0, x0, #0xf9f
+    40005198:	913e8000 	add	x0, x0, #0xfa0
     4000519c:	f9002be1 	str	x1, [sp, #80]
     400051a0:	940022df 	bl	4000dd1c <dlog>
     400051a4:	5280c614 	mov	w20, #0x630                 	// #1584
@@ -3892,7 +3892,7 @@ Disassembly of section .text:
     400052cc:	f2e0081b 	movk	x27, #0x40, lsl #48
     400052d0:	f9402be8 	ldr	x8, [sp, #80]
     400052d4:	900000d6 	adrp	x22, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400052d8:	910baed6 	add	x22, x22, #0x2eb
+    400052d8:	910bb2d6 	add	x22, x22, #0x2ec
     400052dc:	35ffe4a8 	cbnz	w8, 40004f70 <one_time_init+0x2068>
     400052e0:	f0000568 	adrp	x8, 400b4000 <other_world+0x1bd0>
     400052e4:	795ae108 	ldrh	w8, [x8, #3440]
@@ -4125,7 +4125,7 @@ Disassembly of section .text:
     40005670:	94002ff9 	bl	40011654 <mm_ptable_identity_map>
     40005674:	3600b560 	tbz	w0, #0, 40006d20 <one_time_init+0x3e18>
     40005678:	f00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    4000567c:	91373400 	add	x0, x0, #0xdcd
+    4000567c:	91373800 	add	x0, x0, #0xdce
     40005680:	aa1803e1 	mov	x1, x24
     40005684:	aa1603e2 	mov	x2, x22
     40005688:	aa1803f3 	mov	x19, x24
@@ -4204,7 +4204,7 @@ Disassembly of section .text:
     400057ac:	394b0109 	ldrb	w9, [x8, #704]
     400057b0:	f9403be0 	ldr	x0, [sp, #112]
     400057b4:	900000d6 	adrp	x22, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400057b8:	910baed6 	add	x22, x22, #0x2eb
+    400057b8:	910bb2d6 	add	x22, x22, #0x2ec
     400057bc:	34001029 	cbz	w9, 400059c0 <one_time_init+0x2ab8>
     400057c0:	910b0108 	add	x8, x8, #0x2c0
     400057c4:	aa1f03ea 	mov	x10, xzr
@@ -4329,7 +4329,7 @@ Disassembly of section .text:
     400059a0:	d280f09b 	mov	x27, #0x784                 	// #1924
     400059a4:	f2e0081b 	movk	x27, #0x40, lsl #48
     400059a8:	900000d6 	adrp	x22, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400059ac:	910baed6 	add	x22, x22, #0x2eb
+    400059ac:	910bb2d6 	add	x22, x22, #0x2ec
     400059b0:	5280c614 	mov	w20, #0x630                 	// #1584
     400059b4:	911223f3 	add	x19, sp, #0x488
     400059b8:	eb08015f 	cmp	x10, x8
@@ -4355,7 +4355,7 @@ Disassembly of section .text:
     40005a08:	2900a6c8 	stp	w8, w9, [x22, #4]
     40005a0c:	394002e8 	ldrb	w8, [x23]
     40005a10:	900000d6 	adrp	x22, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40005a14:	910baed6 	add	x22, x22, #0x2eb
+    40005a14:	910bb2d6 	add	x22, x22, #0x2ec
     40005a18:	34000bc8 	cbz	w8, 40005b90 <one_time_init+0x2c88>
     40005a1c:	5280c613 	mov	w19, #0x630                 	// #1584
     40005a20:	911223f7 	add	x23, sp, #0x488
@@ -4393,27 +4393,27 @@ Disassembly of section .text:
     40005aa0:	f906bd62 	str	x2, [x11, #3448]
     40005aa4:	1400003a 	b	40005b8c <one_time_init+0x2c84>
     40005aa8:	f00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40005aac:	913fcc00 	add	x0, x0, #0xff3
+    40005aac:	913fd000 	add	x0, x0, #0xff4
     40005ab0:	9400209b 	bl	4000dd1c <dlog>
     40005ab4:	d280f09b 	mov	x27, #0x784                 	// #1924
     40005ab8:	f94023e8 	ldr	x8, [sp, #64]
     40005abc:	889ffd1f 	stlr	wzr, [x8]
     40005ac0:	f2e0081b 	movk	x27, #0x40, lsl #48
     40005ac4:	900000d6 	adrp	x22, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40005ac8:	910baed6 	add	x22, x22, #0x2eb
+    40005ac8:	910bb2d6 	add	x22, x22, #0x2ec
     40005acc:	5280c614 	mov	w20, #0x630                 	// #1584
     40005ad0:	17fffca6 	b	40004d68 <one_time_init+0x1e60>
     40005ad4:	900000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40005ad8:	9132fc00 	add	x0, x0, #0xcbf
+    40005ad8:	91330000 	add	x0, x0, #0xcc0
     40005adc:	14000003 	b	40005ae8 <one_time_init+0x2be0>
     40005ae0:	900000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40005ae4:	91340c00 	add	x0, x0, #0xd03
+    40005ae4:	91341000 	add	x0, x0, #0xd04
     40005ae8:	d280f09b 	mov	x27, #0x784                 	// #1924
     40005aec:	d280879c 	mov	x28, #0x43c                 	// #1084
     40005af0:	f2e0081b 	movk	x27, #0x40, lsl #48
     40005af4:	f2e0281c 	movk	x28, #0x140, lsl #48
     40005af8:	900000d6 	adrp	x22, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40005afc:	910baed6 	add	x22, x22, #0x2eb
+    40005afc:	910bb2d6 	add	x22, x22, #0x2ec
     40005b00:	f94053f8 	ldr	x24, [sp, #160]
     40005b04:	5280c614 	mov	w20, #0x630                 	// #1584
     40005b08:	911223f3 	add	x19, sp, #0x488
@@ -4423,16 +4423,16 @@ Disassembly of section .text:
     40005b18:	17fffbde 	b	40004a90 <one_time_init+0x1b88>
     40005b1c:	d280f09b 	mov	x27, #0x784                 	// #1924
     40005b20:	900000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40005b24:	912e9800 	add	x0, x0, #0xba6
+    40005b24:	912e9c00 	add	x0, x0, #0xba7
     40005b28:	f2e0081b 	movk	x27, #0x40, lsl #48
     40005b2c:	900000d6 	adrp	x22, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40005b30:	910baed6 	add	x22, x22, #0x2eb
+    40005b30:	910bb2d6 	add	x22, x22, #0x2ec
     40005b34:	17fffd0e 	b	40004f6c <one_time_init+0x2064>
     40005b38:	900000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40005b3c:	912e9800 	add	x0, x0, #0xba6
+    40005b3c:	912e9c00 	add	x0, x0, #0xba7
     40005b40:	17fffd04 	b	40004f50 <one_time_init+0x2048>
     40005b44:	900000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40005b48:	91012000 	add	x0, x0, #0x48
+    40005b48:	91012400 	add	x0, x0, #0x49
     40005b4c:	94002074 	bl	4000dd1c <dlog>
     40005b50:	f94023e8 	ldr	x8, [sp, #64]
     40005b54:	889ffd1f 	stlr	wzr, [x8]
@@ -4461,7 +4461,7 @@ Disassembly of section .text:
     40005bb0:	f9148c48 	str	x8, [x2, #10520]
     40005bb4:	f9401fe8 	ldr	x8, [sp, #56]
     40005bb8:	900000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40005bbc:	9102d400 	add	x0, x0, #0xb5
+    40005bbc:	9102d800 	add	x0, x0, #0xb6
     40005bc0:	79400101 	ldrh	w1, [x8]
     40005bc4:	f9404be2 	ldr	x2, [sp, #144]
     40005bc8:	94002055 	bl	4000dd1c <dlog>
@@ -4549,26 +4549,26 @@ Disassembly of section .text:
     40005d10:	9100e0a5 	add	x5, x5, #0x38
     40005d14:	94002e50 	bl	40011654 <mm_ptable_identity_map>
     40005d18:	900000d6 	adrp	x22, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40005d1c:	910baed6 	add	x22, x22, #0x2eb
+    40005d1c:	910bb2d6 	add	x22, x22, #0x2ec
     40005d20:	5280c614 	mov	w20, #0x630                 	// #1584
     40005d24:	911223f3 	add	x19, sp, #0x488
     40005d28:	37076ba0 	tbnz	w0, #0, 40004a9c <one_time_init+0x1b94>
     40005d2c:	140003fd 	b	40006d20 <one_time_init+0x3e18>
     40005d30:	900000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40005d34:	910fdc00 	add	x0, x0, #0x3f7
+    40005d34:	910fe000 	add	x0, x0, #0x3f8
     40005d38:	17ffff70 	b	40005af8 <one_time_init+0x2bf0>
     40005d3c:	900000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40005d40:	9110a400 	add	x0, x0, #0x429
+    40005d40:	9110a800 	add	x0, x0, #0x42a
     40005d44:	17ffff6f 	b	40005b00 <one_time_init+0x2bf8>
     40005d48:	d00000a0 	adrp	x0, 4001b000 <rodata_begin>
     40005d4c:	9127e000 	add	x0, x0, #0x9f8
     40005d50:	900000d6 	adrp	x22, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40005d54:	910baed6 	add	x22, x22, #0x2eb
+    40005d54:	910bb2d6 	add	x22, x22, #0x2ec
     40005d58:	17ffff6d 	b	40005b0c <one_time_init+0x2c04>
     40005d5c:	900000c0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40005d60:	910fdc00 	add	x0, x0, #0x3f7
+    40005d60:	910fe000 	add	x0, x0, #0x3f8
     40005d64:	900000d6 	adrp	x22, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40005d68:	910baed6 	add	x22, x22, #0x2eb
+    40005d68:	910bb2d6 	add	x22, x22, #0x2ec
     40005d6c:	17ffff66 	b	40005b04 <one_time_init+0x2bfc>
     40005d70:	91004280 	add	x0, x20, #0x10
     40005d74:	cb140102 	sub	x2, x8, x20
@@ -4827,7 +4827,7 @@ Disassembly of section .text:
     40006168:	2a0003f4 	mov	w20, w0
     4000616c:	34000120 	cbz	w0, 40006190 <one_time_init+0x3288>
     40006170:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40006174:	913c0400 	add	x0, x0, #0xf01
+    40006174:	913c0800 	add	x0, x0, #0xf02
     40006178:	2a1403e1 	mov	w1, w20
     4000617c:	94001ee8 	bl	4000dd1c <dlog>
     40006180:	2a1403e8 	mov	w8, w20
@@ -4845,14 +4845,14 @@ Disassembly of section .text:
     400061b0:	f9002be0 	str	x0, [sp, #80]
     400061b4:	34000080 	cbz	w0, 400061c4 <one_time_init+0x32bc>
     400061b8:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    400061bc:	913ae400 	add	x0, x0, #0xeb9
+    400061bc:	913ae800 	add	x0, x0, #0xeba
     400061c0:	14000007 	b	400061dc <one_time_init+0x32d4>
     400061c4:	f9401be0 	ldr	x0, [sp, #48]
     400061c8:	94002ae6 	bl	40010d60 <fdt_pack>
     400061cc:	f9002be0 	str	x0, [sp, #80]
     400061d0:	340000c0 	cbz	w0, 400061e8 <one_time_init+0x32e0>
     400061d4:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    400061d8:	913f3400 	add	x0, x0, #0xfcd
+    400061d8:	913f3800 	add	x0, x0, #0xfce
     400061dc:	f9402be1 	ldr	x1, [sp, #80]
     400061e0:	94001ecf 	bl	4000dd1c <dlog>
     400061e4:	17ffffe9 	b	40006188 <one_time_init+0x3280>
@@ -5006,7 +5006,7 @@ Disassembly of section .text:
     40006434:	940021c3 	bl	4000eb40 <fdt_check_header>
     40006438:	34000880 	cbz	w0, 40006548 <one_time_init+0x3640>
     4000643c:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006440:	910e3800 	add	x0, x0, #0x38e
+    40006440:	910e3c00 	add	x0, x0, #0x38f
     40006444:	94001e36 	bl	4000dd1c <dlog>
     40006448:	eb1402df 	cmp	x22, x20
     4000644c:	54000609 	b.ls	4000650c <one_time_init+0x3604>  // b.plast
@@ -5168,7 +5168,7 @@ Disassembly of section .text:
     400066bc:	940025ac 	bl	4000fd6c <fdt_check_full>
     400066c0:	34000080 	cbz	w0, 400066d0 <one_time_init+0x37c8>
     400066c4:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400066c8:	910ed000 	add	x0, x0, #0x3b4
+    400066c8:	910ed400 	add	x0, x0, #0x3b5
     400066cc:	14000049 	b	400067f0 <one_time_init+0x38e8>
     400066d0:	aa1c03e0 	mov	x0, x28
     400066d4:	aa1c03e1 	mov	x1, x28
@@ -5176,12 +5176,12 @@ Disassembly of section .text:
     400066dc:	940028a8 	bl	4001097c <fdt_open_into>
     400066e0:	34000120 	cbz	w0, 40006704 <one_time_init+0x37fc>
     400066e4:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400066e8:	910db400 	add	x0, x0, #0x36d
+    400066e8:	910db800 	add	x0, x0, #0x36e
     400066ec:	14000041 	b	400067f0 <one_time_init+0x38e8>
     400066f0:	d280f09b 	mov	x27, #0x784                 	// #1924
     400066f4:	f2e0081b 	movk	x27, #0x40, lsl #48
     400066f8:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400066fc:	911ab000 	add	x0, x0, #0x6ac
+    400066fc:	911ab400 	add	x0, x0, #0x6ad
     40006700:	17ffff51 	b	40006444 <one_time_init+0x353c>
     40006704:	b00000a1 	adrp	x1, 4001b000 <rodata_begin>
     40006708:	9128e421 	add	x1, x1, #0xa39
@@ -5224,7 +5224,7 @@ Disassembly of section .text:
     4000679c:	35000260 	cbnz	w0, 400067e8 <one_time_init+0x38e0>
     400067a0:	140000e4 	b	40006b30 <one_time_init+0x3c28>
     400067a4:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400067a8:	911a0400 	add	x0, x0, #0x681
+    400067a8:	911a0800 	add	x0, x0, #0x682
     400067ac:	14000011 	b	400067f0 <one_time_init+0x38e8>
     400067b0:	d360fe68 	lsr	x8, x19, #32
     400067b4:	b50001a8 	cbnz	x8, 400067e8 <one_time_init+0x38e0>
@@ -5241,7 +5241,7 @@ Disassembly of section .text:
     400067e0:	940029b1 	bl	40010ea4 <fdt_setprop_inplace>
     400067e4:	34001a60 	cbz	w0, 40006b30 <one_time_init+0x3c28>
     400067e8:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    400067ec:	91304800 	add	x0, x0, #0xc12
+    400067ec:	91304c00 	add	x0, x0, #0xc13
     400067f0:	94001d4b 	bl	4000dd1c <dlog>
     400067f4:	2a1f03f5 	mov	w21, wzr
     400067f8:	39401388 	ldrb	w8, [x28, #4]
@@ -5431,10 +5431,10 @@ Disassembly of section .text:
     40006ad8:	aa0203e1 	mov	x1, x2
     40006adc:	94002e4e 	bl	40012414 <panic>
     40006ae0:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006ae4:	91130000 	add	x0, x0, #0x4c0
+    40006ae4:	91130400 	add	x0, x0, #0x4c1
     40006ae8:	94001c8d 	bl	4000dd1c <dlog>
     40006aec:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40006af0:	91369400 	add	x0, x0, #0xda5
+    40006af0:	91369800 	add	x0, x0, #0xda6
     40006af4:	94001c8a 	bl	4000dd1c <dlog>
     40006af8:	b00000c9 	adrp	x9, 4001f000 <cpus>
     40006afc:	f85a03a8 	ldur	x8, [x29, #-96]
@@ -5498,7 +5498,7 @@ Disassembly of section .text:
     40006be4:	940028b0 	bl	40010ea4 <fdt_setprop_inplace>
     40006be8:	34000080 	cbz	w0, 40006bf8 <one_time_init+0x3cf0>
     40006bec:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40006bf0:	91335400 	add	x0, x0, #0xcd5
+    40006bf0:	91335800 	add	x0, x0, #0xcd6
     40006bf4:	17fffeff 	b	400067f0 <one_time_init+0x38e8>
     40006bf8:	b00000c1 	adrp	x1, 4001f000 <cpus>
     40006bfc:	b00000c8 	adrp	x8, 4001f000 <cpus>
@@ -5547,10 +5547,10 @@ Disassembly of section .text:
     40006ca8:	9400282e 	bl	40010d60 <fdt_pack>
     40006cac:	34000100 	cbz	w0, 40006ccc <one_time_init+0x3dc4>
     40006cb0:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006cb4:	912db400 	add	x0, x0, #0xb6d
+    40006cb4:	912db800 	add	x0, x0, #0xb6e
     40006cb8:	14000003 	b	40006cc4 <one_time_init+0x3dbc>
     40006cbc:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006cc0:	912c6c00 	add	x0, x0, #0xb1b
+    40006cc0:	912c7000 	add	x0, x0, #0xb1c
     40006cc4:	aa1703fc 	mov	x28, x23
     40006cc8:	17fffeca 	b	400067f0 <one_time_init+0x38e8>
     40006ccc:	52800035 	mov	w21, #0x1                   	// #1
@@ -5558,18 +5558,18 @@ Disassembly of section .text:
     40006cd4:	17fffec9 	b	400067f8 <one_time_init+0x38f0>
     40006cd8:	94001d14 	bl	4000e128 <__stack_chk_fail>
     40006cdc:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006ce0:	912fa000 	add	x0, x0, #0xbe8
+    40006ce0:	912fa400 	add	x0, x0, #0xbe9
     40006ce4:	94001c0e 	bl	4000dd1c <dlog>
     40006ce8:	f9403be8 	ldr	x8, [sp, #112]
     40006cec:	889ffd1f 	stlr	wzr, [x8]
     40006cf0:	14000006 	b	40006d08 <one_time_init+0x3e00>
     40006cf4:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006cf8:	91307000 	add	x0, x0, #0xc1c
+    40006cf8:	91307400 	add	x0, x0, #0xc1d
     40006cfc:	94001c08 	bl	4000dd1c <dlog>
     40006d00:	f9403be8 	ldr	x8, [sp, #112]
     40006d04:	889ffd1f 	stlr	wzr, [x8]
     40006d08:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006d0c:	91369800 	add	x0, x0, #0xda6
+    40006d0c:	91369c00 	add	x0, x0, #0xda7
     40006d10:	94001c03 	bl	4000dd1c <dlog>
     40006d14:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
     40006d18:	910aac00 	add	x0, x0, #0x2ab
@@ -5583,16 +5583,16 @@ Disassembly of section .text:
     40006d38:	52804103 	mov	w3, #0x208                 	// #520
     40006d3c:	94002db6 	bl	40012414 <panic>
     40006d40:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006d44:	910d2c00 	add	x0, x0, #0x34b
+    40006d44:	910d3000 	add	x0, x0, #0x34c
     40006d48:	94001bf5 	bl	4000dd1c <dlog>
     40006d4c:	17fff17d 	b	40003340 <one_time_init+0x438>
     40006d50:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40006d54:	91319800 	add	x0, x0, #0xc66
+    40006d54:	91319c00 	add	x0, x0, #0xc67
     40006d58:	52800101 	mov	w1, #0x8                   	// #8
     40006d5c:	94001bf0 	bl	4000dd1c <dlog>
     40006d60:	14000004 	b	40006d70 <one_time_init+0x3e68>
     40006d64:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40006d68:	91357c00 	add	x0, x0, #0xd5f
+    40006d68:	91358000 	add	x0, x0, #0xd60
     40006d6c:	94001bec 	bl	4000dd1c <dlog>
     40006d70:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
     40006d74:	910a3800 	add	x0, x0, #0x28e
@@ -5614,13 +5614,13 @@ Disassembly of section .text:
     40006db4:	528011e3 	mov	w3, #0x8f                  	// #143
     40006db8:	94002d97 	bl	40012414 <panic>
     40006dbc:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006dc0:	910ab400 	add	x0, x0, #0x2ad
+    40006dc0:	910ab800 	add	x0, x0, #0x2ae
     40006dc4:	17ffffd3 	b	40006d10 <one_time_init+0x3e08>
     40006dc8:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
     40006dcc:	910f1400 	add	x0, x0, #0x3c5
     40006dd0:	94002d91 	bl	40012414 <panic>
     40006dd4:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006dd8:	910d2c00 	add	x0, x0, #0x34b
+    40006dd8:	910d3000 	add	x0, x0, #0x34c
     40006ddc:	14000018 	b	40006e3c <one_time_init+0x3f34>
     40006de0:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
     40006de4:	910e3000 	add	x0, x0, #0x38c
@@ -5644,7 +5644,7 @@ Disassembly of section .text:
     40006e2c:	d50c831f 	tlbi	alle2is
     40006e30:	17fff142 	b	40003338 <one_time_init+0x430>
     40006e34:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006e38:	912e9800 	add	x0, x0, #0xba6
+    40006e38:	912e9c00 	add	x0, x0, #0xba7
     40006e3c:	94001bb8 	bl	4000dd1c <dlog>
     40006e40:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
     40006e44:	91059400 	add	x0, x0, #0x165
@@ -5652,16 +5652,16 @@ Disassembly of section .text:
     40006e4c:	d50c831f 	tlbi	alle2is
     40006e50:	17fff1da 	b	400035b8 <one_time_init+0x6b0>
     40006e54:	900000c0 	adrp	x0, 4001e000 <arch_mm_init.pa_bits_table+0x2a6c>
-    40006e58:	91000400 	add	x0, x0, #0x1
+    40006e58:	91000800 	add	x0, x0, #0x2
     40006e5c:	17ffffc4 	b	40006d6c <one_time_init+0x3e64>
     40006e60:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40006e64:	9130f000 	add	x0, x0, #0xc3c
+    40006e64:	9130f400 	add	x0, x0, #0xc3d
     40006e68:	17ffffc1 	b	40006d6c <one_time_init+0x3e64>
     40006e6c:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40006e70:	9133f800 	add	x0, x0, #0xcfe
+    40006e70:	9133fc00 	add	x0, x0, #0xcff
     40006e74:	17ffffbe 	b	40006d6c <one_time_init+0x3e64>
     40006e78:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006e7c:	913f8800 	add	x0, x0, #0xfe2
+    40006e7c:	913f8c00 	add	x0, x0, #0xfe3
     40006e80:	17ffffbb 	b	40006d6c <one_time_init+0x3e64>
     40006e84:	12800068 	mov	w8, #0xfffffffc            	// #-4
     40006e88:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
@@ -5677,28 +5677,28 @@ Disassembly of section .text:
     40006eb0:	910afc00 	add	x0, x0, #0x2bf
     40006eb4:	94002d58 	bl	40012414 <panic>
     40006eb8:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006ebc:	913e3400 	add	x0, x0, #0xf8d
+    40006ebc:	913e3800 	add	x0, x0, #0xf8e
     40006ec0:	aa1303e1 	mov	x1, x19
     40006ec4:	94001b96 	bl	4000dd1c <dlog>
     40006ec8:	14000007 	b	40006ee4 <one_time_init+0x3fdc>
     40006ecc:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006ed0:	91006000 	add	x0, x0, #0x18
+    40006ed0:	91006400 	add	x0, x0, #0x19
     40006ed4:	14000003 	b	40006ee0 <one_time_init+0x3fd8>
     40006ed8:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006edc:	91120800 	add	x0, x0, #0x482
+    40006edc:	91120c00 	add	x0, x0, #0x483
     40006ee0:	94001b8f 	bl	4000dd1c <dlog>
     40006ee4:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006ee8:	91116c00 	add	x0, x0, #0x45b
+    40006ee8:	91117000 	add	x0, x0, #0x45c
     40006eec:	14000006 	b	40006f04 <one_time_init+0x3ffc>
     40006ef0:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006ef4:	9135f400 	add	x0, x0, #0xd7d
+    40006ef4:	9135f800 	add	x0, x0, #0xd7e
     40006ef8:	14000003 	b	40006f04 <one_time_init+0x3ffc>
     40006efc:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006f00:	91381400 	add	x0, x0, #0xe05
+    40006f00:	91381800 	add	x0, x0, #0xe06
     40006f04:	94001b86 	bl	4000dd1c <dlog>
     40006f08:	17ffff80 	b	40006d08 <one_time_init+0x3e00>
     40006f0c:	f00000b9 	adrp	x25, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006f10:	91012339 	add	x25, x25, #0x48
+    40006f10:	91012739 	add	x25, x25, #0x49
     40006f14:	aa1903e0 	mov	x0, x25
     40006f18:	94001b81 	bl	4000dd1c <dlog>
     40006f1c:	f9403be8 	ldr	x8, [sp, #112]
@@ -5729,7 +5729,7 @@ Disassembly of section .text:
     40006f80:	52800f43 	mov	w3, #0x7a                  	// #122
     40006f84:	94002d24 	bl	40012414 <panic>
     40006f88:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006f8c:	91351c00 	add	x0, x0, #0xd47
+    40006f8c:	91352000 	add	x0, x0, #0xd48
     40006f90:	94001b63 	bl	4000dd1c <dlog>
     40006f94:	d00000a0 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
     40006f98:	910aac00 	add	x0, x0, #0x2ab
@@ -5737,7 +5737,7 @@ Disassembly of section .text:
     40006fa0:	889ffd1f 	stlr	wzr, [x8]
     40006fa4:	94002d1c 	bl	40012414 <panic>
     40006fa8:	f00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40006fac:	913ed800 	add	x0, x0, #0xfb6
+    40006fac:	913edc00 	add	x0, x0, #0xfb7
     40006fb0:	aa1303e1 	mov	x1, x19
     40006fb4:	94001b5a 	bl	4000dd1c <dlog>
     40006fb8:	17ffffa2 	b	40006e40 <one_time_init+0x3f38>
@@ -7041,7 +7041,7 @@ Disassembly of section .text:
     400083c8:	713ffc9f 	cmp	w4, #0xfff
     400083cc:	540000a8 	b.hi	400083e0 <ffa_memory_send_validate+0xa0>  // b.pmore
     400083d0:	b00000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400083d4:	91178400 	add	x0, x0, #0x5e1
+    400083d4:	91178800 	add	x0, x0, #0x5e2
     400083d8:	2a0403e1 	mov	w1, w4
     400083dc:	94001650 	bl	4000dd1c <dlog>
     400083e0:	b94006c9 	ldr	w9, [x22, #4]
@@ -8124,7 +8124,7 @@ Disassembly of section .text:
     4000948c:	7100511f 	cmp	w8, #0x14
     40009490:	540003e1 	b.ne	4000950c <ffa_memory_send_continue_validate+0x170>  // b.any
     40009494:	900000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40009498:	911d3800 	add	x0, x0, #0x74e
+    40009498:	911d3c00 	add	x0, x0, #0x74f
     4000949c:	52800282 	mov	w2, #0x14                  	// #20
     400094a0:	9400121f 	bl	4000dd1c <dlog>
     400094a4:	90000408 	adrp	x8, 40089000 <dlog_lock_enabled>
@@ -8605,7 +8605,7 @@ Disassembly of section .text:
     40009c08:	f90033ff 	str	xzr, [sp, #96]
     40009c0c:	17fffef0 	b	400097cc <ffa_retrieve_check_update+0x1cc>
     40009c10:	900000a0 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40009c14:	91045800 	add	x0, x0, #0x116
+    40009c14:	91045c00 	add	x0, x0, #0x117
     40009c18:	910183fa 	add	x26, sp, #0x60
     40009c1c:	94001040 	bl	4000dd1c <dlog>
     40009c20:	a907ffff 	stp	xzr, xzr, [sp, #120]
@@ -9017,7 +9017,7 @@ Disassembly of section .text:
     4000a270:	39400861 	ldrb	w1, [x3, #2]
     4000a274:	33181c01 	bfi	w1, w0, #8, #8
     4000a278:	f0000080 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    4000a27c:	91163c00 	add	x0, x0, #0x58f
+    4000a27c:	91164000 	add	x0, x0, #0x590
     4000a280:	33103c24 	bfi	w4, w1, #16, #16
     4000a284:	33103d8b 	bfi	w11, w12, #16, #16
     4000a288:	b3607c52 	bfi	x18, x2, #32, #32
@@ -9515,10 +9515,10 @@ Disassembly of section .text:
     4000aa38:	f94027f7 	ldr	x23, [sp, #72]
     4000aa3c:	140000a4 	b	4000accc <manifest_init+0x107c>
     4000aa40:	f0000080 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    4000aa44:	91292c00 	add	x0, x0, #0xa4b
+    4000aa44:	91293000 	add	x0, x0, #0xa4c
     4000aa48:	140000ab 	b	4000acf4 <manifest_init+0x10a4>
     4000aa4c:	f0000080 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    4000aa50:	910f4c00 	add	x0, x0, #0x3d3
+    4000aa50:	910f5000 	add	x0, x0, #0x3d4
     4000aa54:	140000a8 	b	4000acf4 <manifest_init+0x10a4>
     4000aa58:	390002bf 	strb	wzr, [x21]
     4000aa5c:	1400000b 	b	4000aa88 <manifest_init+0xe38>
@@ -9592,7 +9592,7 @@ Disassembly of section .text:
     4000ab6c:	aa1f03e8 	mov	x8, xzr
     4000ab70:	14000007 	b	4000ab8c <manifest_init+0xf3c>
     4000ab74:	f0000080 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    4000ab78:	910a0400 	add	x0, x0, #0x281
+    4000ab78:	910a0800 	add	x0, x0, #0x282
     4000ab7c:	1400005e 	b	4000acf4 <manifest_init+0x10a4>
     4000ab80:	390002bf 	strb	wzr, [x21]
     4000ab84:	1400000b 	b	4000abb0 <manifest_init+0xf60>
@@ -9666,7 +9666,7 @@ Disassembly of section .text:
     4000ac94:	52800308 	mov	w8, #0x18                  	// #24
     4000ac98:	14000010 	b	4000acd8 <manifest_init+0x1088>
     4000ac9c:	f0000080 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    4000aca0:	91188400 	add	x0, x0, #0x621
+    4000aca0:	91188800 	add	x0, x0, #0x622
     4000aca4:	14000014 	b	4000acf4 <manifest_init+0x10a4>
     4000aca8:	f94027f7 	ldr	x23, [sp, #72]
     4000acac:	eb55337f 	cmp	x27, x21, lsr #12
@@ -9686,7 +9686,7 @@ Disassembly of section .text:
     4000ace4:	94001422 	bl	4000fd6c <fdt_check_full>
     4000ace8:	34000ac0 	cbz	w0, 4000ae40 <manifest_init+0x11f0>
     4000acec:	f0000080 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    4000acf0:	910ed000 	add	x0, x0, #0x3b4
+    4000acf0:	910ed400 	add	x0, x0, #0x3b5
     4000acf4:	94000c0a 	bl	4000dd1c <dlog>
     4000acf8:	528000b6 	mov	w22, #0x5                   	// #5
     4000acfc:	913fff28 	add	x8, x25, #0xfff
@@ -9771,7 +9771,7 @@ Disassembly of section .text:
     4000ae38:	910125ce 	add	x14, x14, #0x49
     4000ae3c:	17fffbef 	b	40009df8 <manifest_init+0x1a8>
     4000ae40:	900000ac 	adrp	x12, 4001e000 <arch_mm_init.pa_bits_table+0x2a6c>
-    4000ae44:	9101098c 	add	x12, x12, #0x42
+    4000ae44:	91010d8c 	add	x12, x12, #0x43
     4000ae48:	39400d88 	ldrb	w8, [x12, #3]
     4000ae4c:	39400989 	ldrb	w9, [x12, #2]
     4000ae50:	b3781d09 	bfi	x9, x8, #8, #8
@@ -9838,7 +9838,7 @@ Disassembly of section .text:
     4000af44:	33181d69 	bfi	w9, w11, #8, #8
     4000af48:	3940758b 	ldrb	w11, [x12, #29]
     4000af4c:	900000ac 	adrp	x12, 4001e000 <arch_mm_init.pa_bits_table+0x2a6c>
-    4000af50:	9102098c 	add	x12, x12, #0x82
+    4000af50:	91020d8c 	add	x12, x12, #0x83
     4000af54:	33181d68 	bfi	w8, w11, #8, #8
     4000af58:	33103d28 	bfi	w8, w9, #16, #16
     4000af5c:	39400989 	ldrb	w9, [x12, #2]
@@ -9911,7 +9911,7 @@ Disassembly of section .text:
     4000b068:	33181d69 	bfi	w9, w11, #8, #8
     4000b06c:	3940758b 	ldrb	w11, [x12, #29]
     4000b070:	f000008c 	adrp	x12, 4001e000 <arch_mm_init.pa_bits_table+0x2a6c>
-    4000b074:	9100898c 	add	x12, x12, #0x22
+    4000b074:	91008d8c 	add	x12, x12, #0x23
     4000b078:	33181d68 	bfi	w8, w11, #8, #8
     4000b07c:	33103d28 	bfi	w8, w9, #16, #16
     4000b080:	39400989 	ldrb	w9, [x12, #2]
@@ -10113,7 +10113,7 @@ Disassembly of section .text:
     4000b390:	90000095 	adrp	x21, 4001b000 <rodata_begin>
     4000b394:	91321ab5 	add	x21, x21, #0xc86
     4000b398:	b0000080 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    4000b39c:	9137e000 	add	x0, x0, #0xdf8
+    4000b39c:	9137e400 	add	x0, x0, #0xdf9
     4000b3a0:	aa1503e1 	mov	x1, x21
     4000b3a4:	94000a5e 	bl	4000dd1c <dlog>
     4000b3a8:	528000b6 	mov	w22, #0x5                   	// #5
@@ -10125,7 +10125,7 @@ Disassembly of section .text:
     4000b3c0:	b9410902 	ldr	w2, [x8, #264]
     4000b3c4:	340000c2 	cbz	w2, 4000b3dc <manifest_init+0x178c>
     4000b3c8:	b0000080 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    4000b3cc:	913a5800 	add	x0, x0, #0xe96
+    4000b3cc:	913a5c00 	add	x0, x0, #0xe97
     4000b3d0:	aa1503e1 	mov	x1, x21
     4000b3d4:	94000a52 	bl	4000dd1c <dlog>
     4000b3d8:	528000b6 	mov	w22, #0x5                   	// #5
@@ -10133,7 +10133,7 @@ Disassembly of section .text:
     4000b3e0:	b940f102 	ldr	w2, [x8, #240]
     4000b3e4:	340000c2 	cbz	w2, 4000b3fc <manifest_init+0x17ac>
     4000b3e8:	b0000080 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    4000b3ec:	9139dc00 	add	x0, x0, #0xe77
+    4000b3ec:	9139e000 	add	x0, x0, #0xe78
     4000b3f0:	aa1503e1 	mov	x1, x21
     4000b3f4:	94000a4a 	bl	4000dd1c <dlog>
     4000b3f8:	528000b6 	mov	w22, #0x5                   	// #5
@@ -10143,7 +10143,7 @@ Disassembly of section .text:
     4000b408:	7100091f 	cmp	w8, #0x2
     4000b40c:	540000c0 	b.eq	4000b424 <manifest_init+0x17d4>  // b.none
     4000b410:	b0000080 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    4000b414:	91396000 	add	x0, x0, #0xe58
+    4000b414:	91396400 	add	x0, x0, #0xe59
     4000b418:	aa1503e1 	mov	x1, x21
     4000b41c:	94000a40 	bl	4000dd1c <dlog>
     4000b420:	528000b6 	mov	w22, #0x5                   	// #5
@@ -16388,7 +16388,7 @@ Disassembly of section .text:
     4001147c:	1400000b 	b	400114a8 <fdt_find_memory_ranges+0x42c>
     40011480:	f94017e4 	ldr	x4, [sp, #40]
     40011484:	90000060 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40011488:	91078000 	add	x0, x0, #0x1e0
+    40011488:	91078400 	add	x0, x0, #0x1e1
     4001148c:	aa1603e1 	mov	x1, x22
     40011490:	aa1903e2 	mov	x2, x25
     40011494:	aa1403e3 	mov	x3, x20
@@ -16938,7 +16938,7 @@ Disassembly of section .text:
     40011cfc:	f94017eb 	ldr	x11, [sp, #40]
     40011d00:	17ffff23 	b	4001198c <mm_map_level+0x128>
     40011d04:	f0000040 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40011d08:	91329000 	add	x0, x0, #0xca4
+    40011d08:	91329400 	add	x0, x0, #0xca5
     40011d0c:	97fff004 	bl	4000dd1c <dlog>
     40011d10:	2a1f03e0 	mov	w0, wzr
     40011d14:	d0000069 	adrp	x9, 4001f000 <cpus>
@@ -17424,7 +17424,7 @@ Disassembly of section .text:
     4001246c:	a90527e8 	stp	x8, x9, [sp, #80]
     40012470:	97ffeb90 	bl	4000d2b0 <vdlog>
     40012474:	90000060 	adrp	x0, 4001e000 <arch_mm_init.pa_bits_table+0x2a6c>
-    40012478:	91008000 	add	x0, x0, #0x20
+    40012478:	91008400 	add	x0, x0, #0x21
     4001247c:	97ffee28 	bl	4000dd1c <dlog>
     40012480:	d503201f 	nop
     40012484:	17ffffff 	b	40012480 <panic+0x6c>
@@ -18008,10 +18008,10 @@ Disassembly of section .text:
     40012d44:	97ffebf6 	bl	4000dd1c <dlog>
     40012d48:	14000008 	b	40012d68 <sync_current_exception_noreturn+0x54>
     40012d4c:	d0000040 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40012d50:	9127f400 	add	x0, x0, #0x9fd
+    40012d50:	9127f800 	add	x0, x0, #0x9fe
     40012d54:	14000004 	b	40012d64 <sync_current_exception_noreturn+0x50>
     40012d58:	d0000040 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40012d5c:	91349800 	add	x0, x0, #0xd26
+    40012d5c:	91349c00 	add	x0, x0, #0xd27
     40012d60:	528004a3 	mov	w3, #0x25                  	// #37
     40012d64:	97ffebee 	bl	4000dd1c <dlog>
     40012d68:	b0000040 	adrp	x0, 4001b000 <rodata_begin>
@@ -18148,7 +18148,7 @@ Disassembly of section .text:
     40012f5c:	14000225 	b	400137f0 <sync_lower_exception+0x988>
     40012f60:	f9408e61 	ldr	x1, [x19, #280]
     40012f64:	d0000040 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40012f68:	9128f000 	add	x0, x0, #0xa3c
+    40012f68:	9128f400 	add	x0, x0, #0xa3d
     40012f6c:	aa1403e2 	mov	x2, x20
     40012f70:	97ffeb6b 	bl	4000dd1c <dlog>
     40012f74:	aa1303e0 	mov	x0, x19
@@ -18238,7 +18238,7 @@ Disassembly of section .text:
     400130c4:	370008e0 	tbnz	w0, #0, 400131e0 <sync_lower_exception+0x378>
     400130c8:	f9400a68 	ldr	x8, [x19, #16]
     400130cc:	d0000040 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400130d0:	9104d800 	add	x0, x0, #0x136
+    400130d0:	9104dc00 	add	x0, x0, #0x137
     400130d4:	79400101 	ldrh	w1, [x8]
     400130d8:	97ffeb11 	bl	4000dd1c <dlog>
     400130dc:	d538c008 	mrs	x8, vbar_el1
@@ -18310,7 +18310,7 @@ Disassembly of section .text:
     400131e4:	14000183 	b	400137f0 <sync_lower_exception+0x988>
     400131e8:	f9400a68 	ldr	x8, [x19, #16]
     400131ec:	d0000040 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400131f0:	9105c800 	add	x0, x0, #0x172
+    400131f0:	9105cc00 	add	x0, x0, #0x173
     400131f4:	79400101 	ldrh	w1, [x8]
     400131f8:	97ffeac9 	bl	4000dd1c <dlog>
     400131fc:	d538c008 	mrs	x8, vbar_el1
@@ -18376,7 +18376,7 @@ Disassembly of section .text:
     400132ec:	54ffff61 	b.ne	400132d8 <sync_lower_exception+0x470>  // b.any
     400132f0:	52000163 	eor	w3, w11, #0x1
     400132f4:	b0000040 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    400132f8:	912df000 	add	x0, x0, #0xb7c
+    400132f8:	912df400 	add	x0, x0, #0xb7d
     400132fc:	2a1b03e1 	mov	w1, w27
     40013300:	b90007eb 	str	w11, [sp, #4]
     40013304:	2a1c03e2 	mov	w2, w28
@@ -18586,7 +18586,7 @@ Disassembly of section .text:
     40013634:	12003e82 	and	w2, w20, #0xffff
     40013638:	12003d05 	and	w5, w8, #0xffff
     4001363c:	b0000040 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40013640:	912ec800 	add	x0, x0, #0xbb2
+    40013640:	912ecc00 	add	x0, x0, #0xbb3
     40013644:	2a1503e1 	mov	w1, w21
     40013648:	91028136 	add	x22, x9, #0xa0
     4001364c:	97ffe9b4 	bl	4000dd1c <dlog>
@@ -19726,7 +19726,7 @@ Disassembly of section .text:
     400147fc:	7108053f 	cmp	w9, #0x201
     40014800:	54005643 	b.cc	400152c8 <hvc_smc_handler+0x18fc>  // b.lo, b.ul, b.last
     40014804:	b0000040 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40014808:	910c2400 	add	x0, x0, #0x309
+    40014808:	910c2800 	add	x0, x0, #0x30a
     4001480c:	aa1e03fa 	mov	x26, x30
     40014810:	52800c13 	mov	w19, #0x60                  	// #96
     40014814:	72b08013 	movk	w19, #0x8400, lsl #16
@@ -20921,7 +20921,7 @@ Disassembly of section .text:
     40015aa8:	97ffe1e2 	bl	4000e230 <memcpy>
     40015aac:	17ffff6c 	b	4001585c <hvc_smc_handler+0x1e90>
     40015ab0:	f0000020 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40015ab4:	9129e800 	add	x0, x0, #0xa7a
+    40015ab4:	9129ec00 	add	x0, x0, #0xa7b
     40015ab8:	aa1e03f6 	mov	x22, x30
     40015abc:	aa1203f7 	mov	x23, x18
     40015ac0:	97ffe097 	bl	4000dd1c <dlog>
@@ -20935,7 +20935,7 @@ Disassembly of section .text:
     40015ae0:	a9012aa8 	stp	x8, x10, [x21, #16]
     40015ae4:	14000086 	b	40015cfc <hvc_smc_handler+0x2330>
     40015ae8:	f0000020 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40015aec:	9129e800 	add	x0, x0, #0xa7a
+    40015aec:	9129ec00 	add	x0, x0, #0xa7b
     40015af0:	aa1e03f3 	mov	x19, x30
     40015af4:	aa1203f6 	mov	x22, x18
     40015af8:	97ffe089 	bl	4000dd1c <dlog>
@@ -21438,7 +21438,7 @@ Disassembly of section .text:
     400162bc:	3140213f 	cmn	w9, #0x8, lsl #12
     400162c0:	54004881 	b.ne	40016bd0 <hvc_smc_handler+0x3204>  // b.any
     400162c4:	f0000020 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400162c8:	911b4c00 	add	x0, x0, #0x6d3
+    400162c8:	911b5000 	add	x0, x0, #0x6d4
     400162cc:	97ffde94 	bl	4000dd1c <dlog>
     400162d0:	aa1f03f4 	mov	x20, xzr
     400162d4:	aa1f03e3 	mov	x3, xzr
@@ -21683,7 +21683,7 @@ Disassembly of section .text:
     40016690:	79400001 	ldrh	w1, [x0]
     40016694:	12003d02 	and	w2, w8, #0xffff
     40016698:	d0000020 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    4001669c:	912fc400 	add	x0, x0, #0xbf1
+    4001669c:	912fc800 	add	x0, x0, #0xbf2
     400166a0:	97ffdd9f 	bl	4000dd1c <dlog>
     400166a4:	528000a8 	mov	w8, #0x5                   	// #5
     400166a8:	b9000268 	str	w8, [x19]
@@ -21802,7 +21802,7 @@ Disassembly of section .text:
     4001686c:	a97523bb 	ldp	x27, x8, [x29, #-176]
     40016870:	14000477 	b	40017a4c <hvc_smc_handler+0x4080>
     40016874:	f0000020 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40016878:	91148000 	add	x0, x0, #0x520
+    40016878:	91148400 	add	x0, x0, #0x521
     4001687c:	97ffdd28 	bl	4000dd1c <dlog>
     40016880:	aa1f03ee 	mov	x14, xzr
     40016884:	aa1f03e3 	mov	x3, xzr
@@ -22004,7 +22004,7 @@ Disassembly of section .text:
     40016b94:	79400141 	ldrh	w1, [x10]
     40016b98:	12003d02 	and	w2, w8, #0xffff
     40016b9c:	d0000020 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40016ba0:	912fc400 	add	x0, x0, #0xbf1
+    40016ba0:	912fc800 	add	x0, x0, #0xbf2
     40016ba4:	97ffdc5e 	bl	4000dd1c <dlog>
     40016ba8:	528000a9 	mov	w9, #0x5                   	// #5
     40016bac:	aa1f03e8 	mov	x8, xzr
@@ -22954,7 +22954,7 @@ Disassembly of section .text:
     40017a6c:	f9403bf0 	ldr	x16, [sp, #112]
     40017a70:	17fff35a 	b	400147d8 <hvc_smc_handler+0xe0c>
     40017a74:	b0000020 	adrp	x0, 4001c000 <arch_mm_init.pa_bits_table+0xa6c>
-    40017a78:	9129e800 	add	x0, x0, #0xa7a
+    40017a78:	9129ec00 	add	x0, x0, #0xa7b
     40017a7c:	97ffd8a8 	bl	4000dd1c <dlog>
     40017a80:	f940038a 	ldr	x10, [x28]
     40017a84:	aa1f03e9 	mov	x9, xzr
@@ -23636,7 +23636,7 @@ Disassembly of section .text:
     40018514:	97ffd705 	bl	4000e128 <__stack_chk_fail>
     40018518:	f94023e1 	ldr	x1, [sp, #64]
     4001851c:	b0000020 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40018520:	9129b400 	add	x0, x0, #0xa6d
+    40018520:	9129b800 	add	x0, x0, #0xa6e
     40018524:	2a1a03e2 	mov	w2, w26
     40018528:	2a1903e3 	mov	w3, w25
     4001852c:	2a1b03e4 	mov	w4, w27
@@ -23644,7 +23644,7 @@ Disassembly of section .text:
     40018534:	1400003b 	b	40018620 <hvc_smc_handler+0x4c54>
     40018538:	f9401be1 	ldr	x1, [sp, #48]
     4001853c:	b0000020 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40018540:	913b8c00 	add	x0, x0, #0xee3
+    40018540:	913b9000 	add	x0, x0, #0xee4
     40018544:	2a1903e2 	mov	w2, w25
     40018548:	97ffd5f5 	bl	4000dd1c <dlog>
     4001854c:	14000035 	b	40018620 <hvc_smc_handler+0x4c54>
@@ -23697,7 +23697,7 @@ Disassembly of section .text:
     40018608:	17fff419 	b	4001566c <hvc_smc_handler+0x1ca0>
     4001860c:	f94037e8 	ldr	x8, [sp, #104]
     40018610:	b0000020 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40018614:	913cec00 	add	x0, x0, #0xf3b
+    40018614:	913cf000 	add	x0, x0, #0xf3c
     40018618:	d3507d01 	ubfx	x1, x8, #16, #16
     4001861c:	97ffd5c0 	bl	4000dd1c <dlog>
     40018620:	a904ffff 	stp	xzr, xzr, [sp, #72]
@@ -24455,11 +24455,11 @@ Disassembly of section .text:
     400191d8:	d3514e86 	ubfx	x6, x20, #17, #3
     400191dc:	d3452687 	ubfx	x7, x20, #5, #5
     400191e0:	90000020 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400191e4:	911e8000 	add	x0, x0, #0x7a0
+    400191e4:	911e8400 	add	x0, x0, #0x7a1
     400191e8:	97ffd2cd 	bl	4000dd1c <dlog>
     400191ec:	f9400a68 	ldr	x8, [x19, #16]
     400191f0:	90000020 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    400191f4:	91069c00 	add	x0, x0, #0x1a7
+    400191f4:	9106a000 	add	x0, x0, #0x1a8
     400191f8:	79400101 	ldrh	w1, [x8]
     400191fc:	97ffd2c8 	bl	4000dd1c <dlog>
     40019200:	d538c008 	mrs	x8, vbar_el1
@@ -24672,7 +24672,7 @@ Disassembly of section .text:
     40019534:	d3545681 	ubfx	x1, x20, #20, #2
     40019538:	d3514e85 	ubfx	x5, x20, #17, #3
     4001953c:	90000020 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    40019540:	91231c00 	add	x0, x0, #0x8c7
+    40019540:	91232000 	add	x0, x0, #0x8c8
     40019544:	aa1503e6 	mov	x6, x21
     40019548:	97ffd1f5 	bl	4000dd1c <dlog>
     4001954c:	140005a2 	b	4001abd4 <handle_system_register_access+0x1934>
@@ -25371,7 +25371,7 @@ Disassembly of section .text:
     4001a020:	d3545681 	ubfx	x1, x20, #20, #2
     4001a024:	d3514e85 	ubfx	x5, x20, #17, #3
     4001a028:	f0000000 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    4001a02c:	911ff800 	add	x0, x0, #0x7fe
+    4001a02c:	911ffc00 	add	x0, x0, #0x7ff
     4001a030:	17fffd45 	b	40019544 <handle_system_register_access+0x2a4>
     4001a034:	5283820a 	mov	w10, #0x1c10                	// #7184
     4001a038:	72a0058a 	movk	w10, #0x2c, lsl #16
@@ -25808,7 +25808,7 @@ Disassembly of section .text:
     4001a6f4:	d3545681 	ubfx	x1, x20, #20, #2
     4001a6f8:	d3514e85 	ubfx	x5, x20, #17, #3
     4001a6fc:	f0000000 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    4001a700:	91219800 	add	x0, x0, #0x866
+    4001a700:	91219c00 	add	x0, x0, #0x867
     4001a704:	17fffb90 	b	40019544 <handle_system_register_access+0x2a4>
     4001a708:	d5300216 	mrs	x22, mdccint_el1
     4001a70c:	f1007ebf 	cmp	x21, #0x1f
@@ -25823,7 +25823,7 @@ Disassembly of section .text:
     4001a730:	d3545681 	ubfx	x1, x20, #20, #2
     4001a734:	d3514e85 	ubfx	x5, x20, #17, #3
     4001a738:	f0000000 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    4001a73c:	91263400 	add	x0, x0, #0x98d
+    4001a73c:	91263800 	add	x0, x0, #0x98e
     4001a740:	aa1503e6 	mov	x6, x21
     4001a744:	97ffcd76 	bl	4000dd1c <dlog>
     4001a748:	f1007ebf 	cmp	x21, #0x1f
@@ -26110,7 +26110,7 @@ Disassembly of section .text:
     4001abac:	d3545681 	ubfx	x1, x20, #20, #2
     4001abb0:	d3514e85 	ubfx	x5, x20, #17, #3
     4001abb4:	f0000000 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    4001abb8:	91249800 	add	x0, x0, #0x926
+    4001abb8:	91249c00 	add	x0, x0, #0x927
     4001abbc:	aa1503e6 	mov	x6, x21
     4001abc0:	97ffcc57 	bl	4000dd1c <dlog>
     4001abc4:	f1007ebf 	cmp	x21, #0x1f
@@ -26246,7 +26246,7 @@ Disassembly of section .text:
     4001adcc:	d3545681 	ubfx	x1, x20, #20, #2
     4001add0:	d3514e85 	ubfx	x5, x20, #17, #3
     4001add4:	f0000000 	adrp	x0, 4001d000 <arch_mm_init.pa_bits_table+0x1a6c>
-    4001add8:	9127b400 	add	x0, x0, #0x9ed
+    4001add8:	9127b800 	add	x0, x0, #0x9ee
     4001addc:	aa1503e6 	mov	x6, x21
     4001ade0:	97ffcbcf 	bl	4000dd1c <dlog>
     4001ade4:	aa1f03e8 	mov	x8, xzr
