@@ -1,0 +1,8 @@
+qemu-system-aarch64 4.1.0
+
+DO NOT USE PREBUILTS DIRECTLY
+or "efi-virtio.rom" cannot be found during guests boot
+
+follow $/prebuilts/linux-x64/qemu/README.md
+build qemu-system-aarch64 and keep it in the build folder
+do not copy it to other places
