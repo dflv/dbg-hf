@@ -2,8 +2,8 @@
 
 pushd .. >& /dev/null
 
-../qemu-4.1.0/aarch64-softmmu/qemu-system-aarch64 \
-    -M virt,gic_version=3 \
+qemu-system-aarch64 \
+    -M virt,gic-version=3 \
     -cpu cortex-a57 \
     -smp 4 \
     -nographic \
